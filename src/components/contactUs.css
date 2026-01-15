@@ -1,0 +1,109 @@
+
+.contact-us-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.contact-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+label {
+  font-weight: bold;
+  
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #6c63ff;
+}
+
+input[type="text"]:required {
+  border-color: rgb(209, 14, 14);
+}
+
+input[type="submit"] {
+  background-color: #321668; 
+  color: rgb(211, 9, 9);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+input[type="submit"]:hover #koubi {
+  background-color: #12b342;
+}
+
+.messageinput{
+  width: 500px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  resize: vertical;
+}
+
+.stoixeia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stoixeia h2 {
+  margin-bottom: 40px;
+}
+
+.stoixeia h3 {
+  margin-top: 30px;
+}
+
+.stoixeia .diefthinsi {
+  color: blue;
+  margin-right: 500px;
+}
+
+.stoixeia .phone {
+  color: green;
+  margin-right: 500px;
+  justify-content: center;
+}
+
+.stoixeia .email {
+  color: red;
+  margin-right: 500px;
+}
+

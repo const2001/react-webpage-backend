@@ -1,0 +1,50 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+  
+#about-us {
+    padding: 20px;
+  }
+#Dynamiko{
+  padding: 20px;
+}
+  .grid {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    background-color:white;
+
+    
+  }
+  
+  
+  .about-item {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  
+  .about-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .about-item p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .grid {
+      display: flex;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+      background-color:white;
+    }
+  }
+  
