@@ -35,7 +35,6 @@ const Login = () => {
   
   const handleSubmitt = (e) => {
     e.preventDefault();
-    console.log("nigga")
     const username = name;
     const userpass = pass;
 
